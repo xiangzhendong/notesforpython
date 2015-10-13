@@ -11,7 +11,8 @@
 反思：如果要下载npm以及获知npm的使用信息，可以直接找到[npm的官网](https://www.npmjs.com)和查看documentation。节省无用信息筛选成本
 
 下载安装node.js后，回到[这里](https://plugins.gitbook.com/plugin/disqus)。问题来了：npm在哪里？
-
+打开终端，按gitbook帮助文档的提示操作：
+![](38.pic.jpg)
 
 重要资源：
 
