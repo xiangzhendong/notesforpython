@@ -24,7 +24,7 @@ To use the Disqus plugin in your Gitbook project, add the disqus plugin to the b
 推测可能在gitbook的编辑器里，于是误打误撞通过右上角的设置添加了disqus插件：
 ![](屏幕快照 2015-10-14 下午10.45.06.png)
 
-这时文件树里多了book.json文件，恍然大悟，点击查看代码内容，
+这时文件树里多了book.json文件，恍然大悟，点击查看代码内容，按[插件](https://plugins.gitbook.com/plugin/disqus)说明编写代码将disqus插件田间到book.json文件。
 
 重要资源：
 
