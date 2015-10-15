@@ -3,8 +3,8 @@
         "disqus"
     ],
     "pluginsConfig": {
-        "disqus":{
-            "shortName":"Notes for Python"
+        "disqus": {
+            "shortName": "Notes for Python"
         }
     }
 }
