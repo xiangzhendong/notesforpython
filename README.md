@@ -29,6 +29,13 @@ To use the Disqus plugin in your Gitbook project, add the disqus plugin to the b
 大功告成？
 在create your page点击read时发现：This book has not been published yet
 
+回到[gitbook官方教程](http://help.gitbook.com/build/index.html)，在build章得知：
+为了build website，首先要使用git或gitbook editor push content
+问题：如何使用gitbook editor push content？
+
+尝试1：在设置中添加push插件。失败，无push插件
+尝试2：在book.json中添加代码。为此，在百度中搜索“”
+
 
 重要资源：
 
