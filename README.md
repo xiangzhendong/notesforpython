@@ -44,6 +44,22 @@ $ gitbook build ./repository --output=./outputFolder
 
 成功！
 
+成功？
+现象：We were unable to load Disqus.
+
+尝试1：问题旁边直接附有[帮助文档](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22)。查看帮助文档，看不懂，暂且放弃，转换思路。
+
+尝试2:重新研读[plugins帮助文档](https://plugins.gitbook.com/plugin/disqus)
+you create a shortname for disqus by creating a new website on the disqus.com website
+我在disqus那边创建了一个channel，与这里的website是不是一个概念？这个问题的答案在disques的帮助文档里一定有，于是找到[disques帮助文档](https://help.disqus.com)，搜索“create website”，返回结果：
+Disqus Sites and Channels
+On Disqus, there are two different ways to facilitate Discussions and encourage conversation: Sites and Channe...
+A single embed code gives you access to both Engage and Reveal for your Site.
+进入[engage](https://publishers.disqus.com/engage)创建website，命名为notesforpythonjed
+在book.json中将shortName修改为notesforpythonjed
+刷新浏览器，disqus插件已添加到gitbook
+大功告成！！
+
 
 重要资源：
 
