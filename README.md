@@ -34,7 +34,11 @@ To use the Disqus plugin in your Gitbook project, add the disqus plugin to the b
 问题：如何使用gitbook editor push content？
 
 尝试1：在设置中添加push插件。失败，无push插件
-尝试2：在book.json中添加代码。为此，在百度中搜索“”
+尝试2：在book.json中添加代码。为此，在百度中搜索“gitbook editor push content”，找到[gitbook简明教程](http://www.colobu.com/2014/10/09/gitbook-quickstart/)。在book.json中添加如下代码：
+
+$ gitbook build ./repository --output=./outputFolder
+
+成功！
 
 
 重要资源：
