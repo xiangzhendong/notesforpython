@@ -10,7 +10,8 @@
 
 反思：如果要下载npm以及获知npm的使用信息，可以直接找到[npm的官网](https://www.npmjs.com)和查看documentation。节省无用信息筛选成本
 
-下载安装node.js后，回到[plugins帮助文档](https://plugins.gitbook.com/plugin/disqus)。问题来了：npm是什么？怎么操作？
+下载安装node.js后，回到[plugins帮助文档](https://plugins.gitbook.com/plugin/disqus)。
+问题：npm是什么？怎么操作？
 
 打开终端，按npm帮助文档的提示安装npm并检查安装版本：
 $ node -v #检查node.js版本
