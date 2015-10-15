@@ -24,7 +24,7 @@ $ sudo npm install gitbook-plugin-disqus -g
 ![](屏幕快照 2015-10-14 下午10.29.05.png)
 
 To use the Disqus plugin in your Gitbook project, add the disqus plugin to the book.json file, along with your shortname (you create a shortname for disqus by creating a new website on the disqus.com website)
-问题来了：什么是book.json?怎么操作？
+问题：什么是book.json?怎么操作？
 
 推测可能在gitbook的编辑器里，于是误打误撞通过右上角的设置添加了disqus插件：
 ![](屏幕快照 2015-10-14 下午10.45.06.png)
