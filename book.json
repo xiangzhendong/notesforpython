@@ -1,13 +1,6 @@
 {
     "plugins": [
-        "disqus",
-        "push"
+        "disqus"
     ],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "Notes for Python"
-        }
-    }
+    "pluginsConfig": {}
 }
-
-$ gitbook build ./repository --output=./outputFolder
