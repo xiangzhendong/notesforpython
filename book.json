@@ -9,3 +9,5 @@
         }
     }
 }
+
+$ gitbook build ./repository --output=./outputFolder
