@@ -30,6 +30,14 @@ To use the Disqus plugin in your Gitbook project, add the disqus plugin to the b
 ![](屏幕快照 2015-10-14 下午10.45.06.png)
 
 这时文件树里多了book.json文件，恍然大悟，点击查看代码内容，按[plugins帮助文档](https://plugins.gitbook.com/plugin/disqus)说明编写代码将disqus插件添加到book.json文件。
+{
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "notesforpython"  ＃在disqus上创建的channel
+        }
+    }  
+}
 
 大功告成？
 在create your page点击read时发现：This book has not been published yet
