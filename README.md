@@ -19,7 +19,7 @@ $ sudo npm install npm -g
 $ npm -v
 ![](38.pic.jpg)
 
-回到[插件](https://plugins.gitbook.com/plugin/disqus)，按操作安装disqus插件：
+回到[plugins帮助文档](https://plugins.gitbook.com/plugin/disqus)，按操作安装disqus插件：
 $ sudo npm install gitbook-plugin-disqus -g
 ![](屏幕快照 2015-10-14 下午10.29.05.png)
 
