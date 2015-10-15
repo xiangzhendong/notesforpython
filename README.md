@@ -13,9 +13,13 @@
 下载安装node.js后，回到[插件](https://plugins.gitbook.com/plugin/disqus)。问题来了：npm是什么？怎么操作？
 
 打开终端，按npm帮助文档的提示安装npm并检查安装版本：
+$ node -v #检查node.js版本
+$ sudo npm install npm -g 
+$ npm -v
 ![](38.pic.jpg)
 
 回到[插件](https://plugins.gitbook.com/plugin/disqus)，按操作安装disqus插件：
+$ sudo npm install gitbook-plugin-disqus -g
 ![](屏幕快照 2015-10-14 下午10.29.05.png)
 
 To use the Disqus plugin in your Gitbook project, add the disqus plugin to the book.json file, along with your shortname (you create a shortname for disqus by creating a new website on the disqus.com website)
