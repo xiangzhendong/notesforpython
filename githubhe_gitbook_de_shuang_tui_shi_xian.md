@@ -8,6 +8,18 @@
 
 [帮助文档](https://help.github.com/articles/generating-ssh-keys/)
 
+ssh keys是一种不需要密码就可以识别可信任电脑的方式。
+
+
+### 第一步：检查SSH keys
+检查电脑上已经存在的SSH keys。在终端输入：
+$ ls -al ~/.ssh
+
+
+### 声称一个心得
+
+
+
 
 
 
