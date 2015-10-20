@@ -22,6 +22,25 @@
 
 
 
+## 0wd6 shenzhen C2T2 纪要
+
+
+### 几点共识
+* 
+科学上网
+* 
+google
+
+你不是一个人，你遇到的问题很可能其他人已经遇到过了；
+对问题的解决只能靠自己，google只提供信息支持；
+相比自然语言，google更
+* 
+问答：stackoverflow
+
+stackflow为stack exchange旗下的程序编程问答网站。编程牛人都在此。
+
+
+
 ### git常用的3个命令
 
 git add
@@ -29,5 +48,10 @@ git add
 git commit
 
 git push
+
+
+
+
+
 
 
