@@ -9,7 +9,7 @@
 
 ```git add README.md``` ＃用git add添加文件
 
-```git commit -m "first commit"```  ＃用git commit命令告诉git把文件提交到仓库
+```git commit -m "first commit"```  ＃用git commit命令告诉git把文件提交到仓库；－m后面是本次提交的说明
 
 ```git remote add origin https://github.com/xiangzhendong/test.git```
 
