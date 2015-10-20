@@ -13,7 +13,7 @@
 
 ```git remote add origin https://github.com/xiangzhendong/test.git```
 
-```git push -u origin master``` ＃第一次推送，以后可去掉-u
+```git push -u origin master``` ＃把local的master分支内容推送到远程的master分支，以后可去掉-u
 
 
 
