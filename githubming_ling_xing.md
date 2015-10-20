@@ -33,11 +33,23 @@ google
 
 你不是一个人，你遇到的问题很可能其他人已经遇到过了；
 对问题的解决只能靠自己，google只提供信息支持；
-相比自然语言，google更
+学会和google对话
+
+“” 双引号表示完全匹配
+A -B 包含A但不包含B
+filetype:  搜索指定类型的文件
+site: 在指定网站内搜索
+link: 网页中含有指定链接
+intitle: 标题还有指定内容
+等等。
 * 
 问答：stackoverflow
 
 stackflow为stack exchange旗下的程序编程问答网站。编程牛人都在此。
+
+* 
+随手记录尝试过程
+
 
 
 
