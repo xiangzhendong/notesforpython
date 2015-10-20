@@ -60,8 +60,6 @@ stackflow为stack exchange旗下的程序编程问答网站。编程牛人都在
 
 
 
-
-
 ### git常用的3个命令
 
 git add
@@ -71,6 +69,11 @@ git commit
 git push
 
 
+
+### 前进！
+
+42代码
+笨方法学编程
 
 
 
