@@ -1,29 +1,4 @@
-# 如何通过命令行新建和推送repository
-
-
-打开终端，输入：
-
-```echo "# test" >> README.md```
-
-```git init```  #第一次使用git命令会提示安装git   
-
-```git add README.md``` ＃用git add添加文件
-
-```git commit -m "first commit"```  ＃用git commit命令告诉git把文件提交到仓库；－m后面是本次提交的说明
-
-```git remote add origin https://github.com/xiangzhendong/test.git```
-
-```git push -u origin master``` ＃把local的master分支内容推送到远程的master分支，以后可去掉-u
-
-
-
-![](屏幕快照 2015-10-20 下午7.58.31.png)
-![](屏幕快照 2015-10-20 下午8.00.12.png)
-
-
-
-## 0wd6 shenzhen C2T2 纪要
-
+# 0wd6 shenzhen C2T2 纪要
 
 ### 几点共识
 * 
@@ -50,7 +25,32 @@ stackflow为stack exchange旗下的程序编程问答网站。编程牛人都在
 * 
 随手记录尝试过程
 
-准备一个小本子，在解决问题的尝试中，随手记录尝试过程（链接、截图、试验过程等等）。便于总结反思自己的思维过程；
+准备一个小本子，在解决问题的尝试中，随手记录尝试过程（链接、截图、试验过程等等）。便于总结反思自己的思维过程；便于他人快速了解自己遇到的问题并提供帮助
+
+
+本地编辑文件并推送
+
+打开终端，输入：
+
+```echo "# test" >> README.md```
+
+```git init```  #第一次使用git命令会提示安装git   
+
+```git add README.md``` ＃用git add添加文件
+
+```git commit -m "first commit"```  ＃用git commit命令告诉git把文件提交到仓库；－m后面是本次提交的说明
+
+```git remote add origin https://github.com/xiangzhendong/test.git```
+
+```git push -u origin master``` ＃把local的master分支内容推送到远程的master分支，以后可去掉-u
+
+
+
+![](屏幕快照 2015-10-20 下午7.58.31.png)
+![](屏幕快照 2015-10-20 下午8.00.12.png)
+
+
+
 
 
 ### git常用的3个命令
