@@ -23,7 +23,7 @@
 
 参见[42行代码](https://github.com/xiangzhendong/OMOOC2py/blob/master/_src/om2py0w/0wex0/main.py)
 
-工作方式：一个代码段（以>>>为标志）一个代码段的试验
+工作方式：先写一段代码（以>>>为标志），调试无误，把无误的代码段复制下来，接着写下一段代码
 
 python3.5当中```print ‘hello world’```会返回语法错误，应写成```print('hello world')```
 
