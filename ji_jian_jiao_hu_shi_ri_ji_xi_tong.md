@@ -18,7 +18,7 @@
 python版本：python 3.5.0
 
 
-技术（大妈）：
+技术（1wd4）：
 
 raw_input()
 
@@ -31,3 +31,4 @@ open()
 for in 回读
 
 ## 版本1
+
