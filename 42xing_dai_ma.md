@@ -30,4 +30,4 @@ python3.5当中```print ‘hello world’```会返回语法错误，应写成```
 ```print ('这是Alice'的问候。')```语法错误，解决的方式是：
 ```print('这是Alice\'的问候。')```或者```print("这是Alice'的问候。")```
 
-
+```print('这将直接执行'+os.getcwd())``` ＃os.getcwd()的作用是Return a string representing the current working directory.
