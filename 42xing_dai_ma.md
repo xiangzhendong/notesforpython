@@ -8,7 +8,7 @@
 
 
 ### 安装
-从[python官网](https://www.python.org/downloads/)获取安装包并安装
+从[python官网](https://www.python.org/downloads/)获取安装包并安装python3.5
 
 问题：之前在win系统下python的脚本编辑器有CLI和GUI两个版本，为什么mac环境下只有一个IDLE?
 
