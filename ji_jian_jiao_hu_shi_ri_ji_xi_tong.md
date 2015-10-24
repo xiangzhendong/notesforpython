@@ -49,27 +49,32 @@ for in 回读
 执行程序，输入中文后返回错误：
 UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)
 
-python unicode
-python utf-8
-
 尝试不写中文，看看程序运行结果：
-i love you,suqin
-when i am down
-q
-this is a bike
-how are you
-i am fine
-q
 
-q不用输入，修改：
-mydiary=open(‘mydiary.txt’,’a’)
-while True:
-    content=input(‘—>’)
-    if content==‘q’:break
-    mydiary.write(content+’\n’)
- mydiary.close()
+>i love you,suqin
+
+>when i am down
+
+>q
+
+>this is a bike
+
+>how are you
+
+>i am fine
+
+>q
+
+q不用输入，修改之：
+    
+    mydiary=open(‘mydiary.txt’,’a’)
+    while True:
+        content=input(‘—>’)
+        if content==‘q’:break
+        mydiary.write(content+’\n’)
+    mydiary.close()
 
 
-for line in open(‘mydiary.txt’):
-    print(line,end=‘ ‘)
+    for line in open(‘mydiary.txt’):
+        print(line,end=‘ ‘)
 
