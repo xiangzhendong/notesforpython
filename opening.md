@@ -19,5 +19,7 @@ python版本：3.5
 
 第二步：下载[activetcl](http://www.activestate.com/activetcl/downloads)，点击安装文件，这时会在桌面出现一个新的名为activetcl－8.5的文件，双击打开，按操作提示安装即可
 
-注意：由于mac的安全设置问题，这里可能会遇到打不开文件的情况。这时可在安全性与隐私中修改设置，打开activestate 
+注意：由于mac的安全设置问题，这里可能会遇到打不开文件的情况。这时可在安全性与隐私中修改设置，打开activestate
+
+![](屏幕快照 2015-10-24 下午6.11.23.png)
 
