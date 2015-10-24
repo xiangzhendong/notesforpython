@@ -31,3 +31,6 @@ python3.5当中```print ‘hello world’```会返回语法错误，应写成```
 ```print('这是Alice\'的问候。')```或者```print("这是Alice'的问候。")```
 
 ```print('这将直接执行'+os.getcwd())``` ＃os.getcwd()的作用是Return a string representing the current working directory.
+
+```if __name__=='__main__':``` ＃注意是两个下划线而不是一个
+
