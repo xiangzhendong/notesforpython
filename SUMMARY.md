@@ -8,4 +8,5 @@
    * [42行代码](42xing_dai_ma.md)
 * [Chapter 1 编程思想入门](chapter_1.md)
    * [mac环境下IDLE不支持中文输入问题](machuan_jing_xia_idle_bu_zhi_chi_zhong_wen_shu_ru_wen_ti.md)
+   * 极简交互式日记系统
 
