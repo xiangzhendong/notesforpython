@@ -5,5 +5,6 @@
    * [如何配置disqus插件](ru_he_pei_zhi_disqus_cha_jian.md)
    * [github和gitbook的双推实现](githubhe_gitbook_de_shuang_tui_shi_xian.md)
    * [0wd6 shenzhen C2T2 纪要](githubming_ling_xing.md)
+   * 42行代码
 * [Chapter 1 编程思想入门](chapter_1.md)
 
