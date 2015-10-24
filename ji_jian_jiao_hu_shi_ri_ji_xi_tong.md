@@ -22,13 +22,18 @@ python版本：python 3.5.0
 
 raw_input()
 
-while+break while 执行无限循环，使用break来跳出循环
+while+break while ＃执行无限循环，使用break来跳出循环
 
 os.path.exists
 
-open()
+open() ＃创建文件，w for writing,默认是r for reading
 
 for in 回读
+
+>小贴士
+```import os```
+```os.getcwd()```
+搜索文件问之找到文件
 
 ## 版本1
 
