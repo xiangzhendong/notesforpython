@@ -1,8 +1,5 @@
 # mac环境下IDLE不支持中文输入问题
 
-# Opening
-
-
 ### 背景
 系统环境：MAC OS X 10.10.5
 python版本：3.5
