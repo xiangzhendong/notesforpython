@@ -7,4 +7,5 @@
    * [0wd6 shenzhen C2T2 纪要](githubming_ling_xing.md)
    * [42行代码](42xing_dai_ma.md)
 * [Chapter 1 编程思想入门](chapter_1.md)
+   * mac环境下IDLE不支持中文输入问题
 
