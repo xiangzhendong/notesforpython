@@ -36,7 +36,6 @@ for in 回读
 搜索文件位置找到文件
 
 ## 版本1
-
     ＃-*- coding:utf-8 -*-
     mydiary=open(‘mydiary.txt’,’a’)
     while True:
