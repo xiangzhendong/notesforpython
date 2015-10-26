@@ -4,6 +4,7 @@
 * [Opening](opening.md)
    * [如何配置disqus插件](ru_he_pei_zhi_disqus_cha_jian.md)
    * [生成SSH密匙](ssh.md)
+       * Gi
    * [0wd6 shenzhen C2T2 纪要](githubming_ling_xing.md)
    * [42行代码](42xing_dai_ma.md)
 * [Chapter 1 编程思想入门](chapter_1.md)
