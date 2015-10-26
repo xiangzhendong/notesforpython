@@ -1,4 +1,4 @@
-# github和gitbook的双推实现
+# 生成SSH密匙
 
 原则上，如果你在github上有一个repository，可以在gitbook的[设置](https://www.gitbook.com/book/xiangzhendong/notesforpython/settings/github)中设置gitbook和github repository的关联，这样，你就可以Link your book to a GitHub repository to edit this repository directly from the editor.
 
