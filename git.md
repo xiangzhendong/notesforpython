@@ -41,9 +41,10 @@ git是一个版本管理系统。git有3种状态，你的文件可能处于其�
 
 
 
-跟踪新文件
 
-使用git add开始跟踪一个文件，这时你会看到TESTTEST文件已被跟踪，并处于暂存状态（changes to be committed）
+## 跟踪新文件
+
+使用git add开始跟踪一个文件，这时你会看到test文件已被跟踪，并处于暂存状态（changes to be committed）
 
 git add 可以开始跟踪新文件，或者把已跟踪的文件（修改）放到暂存区
 
