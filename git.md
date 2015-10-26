@@ -58,14 +58,18 @@ git add 可以开始跟踪新文件，或者把已跟踪的文件（修改）放
 
 
 ## 查看已暂存和未暂存的修改
-要查看尚未暂存的文件更新了哪些部分，不加参数直接输入git diff（diff是指工作目录中当前文件和暂存区域快照之间的差异，也就是修改之后还没有暂存起来的变化内容）
-要查看已暂存的将要添加到瑕疵提交里的内容，可以用git diff －－cached命令
+要查看尚未暂存的文件更新了哪些部分，不加参数直接输入```git diff```（diff是指工作目录中当前文件和暂存区域快照之间的差异，也就是修改之后还没有暂存起来的变化内容）
+
+要查看已暂存的将要添加到瑕疵提交里的内容，可以用```git diff －－cached```命令
+
 将test暂存后再编辑，运行git status会看到暂存前后的两个版本
-git add test
-echo ‘＃ test line’>>test
-git status
+```git add test```
+```echo ‘＃ test line’>>test```
+```git status```
+
 运行git diff看暂存前后的变化
-图
+
+
 运行git diff －－cached查看已经暂存起来的变化
 
 提交的时候不会记录没有暂存的变化。所以，提交时先用git status命令看下是不是都已暂存起来了，然后再git commit -m “<提交信息>"
