@@ -67,7 +67,9 @@ git add 可以开始跟踪新文件，或者把已跟踪的文件（修改）放
 
 将test暂存后再编辑，运行git status会看到暂存前后的两个版本
 ```git add test```
-```echo ‘＃ test line’>>test```
+
+```echo ‘＃ test line’>>test``` #两个尖头表示另起一行，不会覆盖
+
 ```git status```
 
 运行git diff看暂存前后的变化
