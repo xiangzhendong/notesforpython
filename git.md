@@ -78,15 +78,19 @@ git add 可以开始跟踪新文件，或者把已跟踪的文件（修改）放
 运行git diff －－cached查看已经暂存起来的变化
 ![](屏幕快照 2015-10-25 下午10.58.01.png)
 
-提交的时候不会记录没有暂存的变化。所以，提交时先用git status命令看下是不是都已暂存起来了，然后再git commit -m “<提交信息>"
-跳过使用暂存区域
-git commit -a -m “add new benchmarks”
+提交的时候不会记录没有暂存的变化。所以，提交时先用git status命令看下是不是都已暂存起来了，然后再```git commit -m “<提交信息>"```
+
+
+## 跳过使用暂存区域
+```git commit -a -m “add new benchmarks”```
+
 git会自动把所有已跟踪文件暂存起来一并提交，不需要git add命令
 
-删除文件
-git rm test
-如果删除之前修改过且放入暂存区的话，则要用强制删除选项－f（force）
-此外，我们想把文件从git仓库中删除（即从暂存区移除），但仍希望保留在当前工作目录中，git rm —cached test
+
+## 删除文件
+```git rm test```
+
+如果删除之前修改过且放入暂存区的话，则要用强制删除选项－f（force）。此外，我们想把文件从git仓库中删除（即从暂存区移除），但仍希望保留在当前工作目录中，git rm —cached test
 
 git push 同步到远程仓库
 
