@@ -13,4 +13,5 @@
 * 2W GUI
    * [tkinter](tkinter.md)
    * [极简交互日记的桌面版本](ji_jian_jiao_hu_ri_ji_de_zhuo_mian_ban_ben.md)
+   * Entry Widgets
 
