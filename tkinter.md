@@ -64,5 +64,13 @@ pack()方法把widget加入到父容器中，并实现布局
 
 
 
+参考资料：
+
+[廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868326118089581a091a04e4c30b2b7896392bdde5c000)
+
+[可爱的python：python中的tk编程](http://www.ibm.com/developerworks/cn/linux/sdk/python/charm-12/)
+
+[python documentation](https://docs.python.org/3/library/tkinter.html?highlight=tkinter#module-tkinter)
+
 
 
