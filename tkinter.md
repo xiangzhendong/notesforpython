@@ -17,11 +17,10 @@ Tk是一个图形库，它并不是python的一部分。python中的tkinter模�
 >插曲：Tk T大写k小写
 
 错误代码：
->import tkinter
 
->root tkinter.TK()
-
->root mainloop()
+    import tkinter
+    root tkinter.TK()
+    root mainloop()
 
 尝试1:```dir(tkinter)``` tkinter有属性"TK"
 
