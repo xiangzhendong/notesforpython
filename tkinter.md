@@ -55,6 +55,11 @@ pack()方法把widget加入到父容器中，并实现布局
 
 ### 第3步：实例化Application ,并启动消息循环
 
+    app = Application()
+    # 设置窗口标题:
+    app.master.title('Hello World')
+    # 主消息循环:
+    app.mainloop()
 
 
 
