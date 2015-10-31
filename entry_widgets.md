@@ -1,3 +1,6 @@
+#输入文本 
+
+
 # Entry Widgets
 
 entry是tkinter用来获得用户输入的基本部件（widgets），它可以让用户输入单行文本。如果你想输入多行文本，就要使用text部件。entry的语法如下：
@@ -122,6 +125,13 @@ master代表父窗口（parent window），entry部件会布置在里面。像�
        b2 = Button(root, text='Quit', command=root.quit)
        b2.pack(side=LEFT, padx=5, pady=5)
        root.mainloop()
+
+
+
+# Text Widgets
+
+
+
 
 
 
