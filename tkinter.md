@@ -22,6 +22,8 @@ Tk是一个图形库，它并不是python的一部分。python中的tkinter模�
     root tkinter.TK()
     root mainloop()
 
+返回：AttributeError: module 'tkinter' has no attribute ‘tk'
+
 尝试1:```dir(tkinter)``` tkinter有属性"TK"
 
 尝试2:[stackoverflow](http://stackoverflow.com/questions/20997761/tkinter-module-object-has-no-attribute-frame) 还是傻傻分不清楚
@@ -44,7 +46,14 @@ Tk是一个图形库，它并不是python的一部分。python中的tkinter模�
             self.quitButton.pack()
 
 
+在GUI中，每个Button、Label、输入框等，都是一个Widget。Frame则是可以容纳其他Widget的Widget
 
+pack()方法把widget加入到父容器中，并实现布局
+
+在creatWidget方法中，我们创建了一个label和一个button，当button被电击时，触发self.quit()使程序退出
+
+
+### 第3步：实例化Application ,并启动消息循环
 
 
 
