@@ -34,13 +34,13 @@
         class myapp(tk.Tk):
             def __init__(self):
                 tk.Tk.__init__(self)
-                self.entry=tk.Entry(self)
+                self.diarytext=tk.Text(self,height=6,width=30)
                 self.button=tk.Button(self,text='save',command=self.on_button)
                 self.button.pack()
-                self.entry.pack()
+                self.diarytext.pack()
             def on_button(self):
                 mydiary=open('mydiary.txt','a')
-                mydiary.write(self.entry.get()+'\n')
+                mydiary.write(self.diarytext.get()+'\n')
                 mydiary.close()
     
         app=myapp()
