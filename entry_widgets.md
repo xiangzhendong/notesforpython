@@ -130,6 +130,8 @@ master代表父窗口（parent window），entry部件会布置在里面。像�
 
 # Text Widgets
 
+使用Text()方法来创建一个text部件。
+
     Tkinter import *
 
     root = Tk()
@@ -138,10 +140,58 @@ master代表父窗口（parent window），entry部件会布置在里面。像�
     T.insert(END, "Just a text Widget\nin two lines\n")
     mainloop()
 
+我们使用更长的文本：
 
+    from Tkinter import *
 
+    root = Tk()
+    T = Text(root, height=2, width=30)
+    T.pack()
+    quote = """HAMLET: To be, or not to be--that is the question:
+    Whether 'tis nobler in the mind to suffer
+    The slings and arrows of outrageous fortune
+    Or to take arms against a sea of troubles
+    And by opposing end them. To die, to sleep--
+    No more--and by a sleep to say we end
+    The heartache, and the thousand natural shocks
+    That flesh is heir to. 'Tis a consummation
+    Devoutly to be wished."""
+    T.insert(END, quote)
+    mainloop()
 
+程序结果如下：
+
+![](屏幕快照 2015-10-31 下午11.21.34.png)
+
+我们可以使用Scrollbar()来为窗口增加滚动条：
+
+    from Tkinter import *
+
+    root = Tk()
+    S = Scrollbar(root)
+    T = Text(root, height=4, width=50)
+    S.pack(side=RIGHT, fill=Y)
+    T.pack(side=LEFT, fill=Y)
+    S.config(command=T.yview)
+    T.config(yscrollcommand=S.set)
+    quote = """HAMLET: To be, or not to be--that is the question:
+    Whether 'tis nobler in the mind to suffer
+    The slings and arrows of outrageous fortune
+    Or to take arms against a sea of troubles
+    And by opposing end them. To die, to sleep--
+    No more--and by a sleep to say we end
+    The heartache, and the thousand natural shocks  
+    That flesh is heir to. 'Tis a consummation
+    Devoutly to be wished."""
+    T.insert(END, quote)
+    mainloop(  )
+
+程序结果如下：
+
+![](屏幕快照 2015-10-31 下午11.31.46.png)
 
 参考资料：
 
 [Entry Widgets](http://www.python-course.eu/tkinter_entry_widgets.php)
+
+[Text Widgets](http://www.python-course.eu/tkinter_text_widget.php)
