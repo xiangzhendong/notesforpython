@@ -94,7 +94,13 @@ pack()方法把widget加入到父容器中，并实现布局
 
 
 
-### Entry()
+### Entry Widgets
+entry是tkinter用来获得用户输入的基本部件（widgets），它可以让用户输入单行文本。如果你想输入多行文本，就要使用text部件。entry的语法如下：
+
+```w = Entry(master, option, ... ) ```
+
+master代表父窗口（parent window），entry部件会布置在里面。像其他部件一样可以使用属性（options）来进一步修饰entry部件。
+
 
     import tkinter as tk
 
