@@ -29,6 +29,22 @@
  ##版本2
 目标：输入多行文本
 
+    from tkinter import *
+        import tkinter as tk
+        class myapp(tk.Tk):
+            def __init__(self):
+                tk.Tk.__init__(self)
+                self.entry=tk.Entry(self)
+                self.button=tk.Button(self,text='save',command=self.on_button)
+                self.button.pack()
+                self.entry.pack()
+            def on_button(self):
+                mydiary=open('mydiary.txt','a')
+                mydiary.write(self.entry.get()+'\n')
+                mydiary.close()
+    
+        app=myapp()
+        app.mainloop()
 
 
 
