@@ -67,7 +67,7 @@ pack()方法把widget加入到父容器中，并实现布局
 
 ### 输入文本
 
-    from Tkinter import * 
+    from tkinter import * 
     import tkinter.messagebox
 
     class Application(Frame):
@@ -91,6 +91,27 @@ pack()方法把widget加入到父容器中，并实现布局
 
 
 ### 批量输入文本
+
+
+
+### Entry()
+
+    import tkinter as tk
+
+    class SampleApp(tk.Tk):
+        def __init__(self):
+            tk.Tk.__init__(self)
+            self.entry = tk.Entry(self)
+            self.button = tk.Button(self, text="Get",    command=self.on_button)
+            self.button.pack()
+            self.entry.pack()
+
+        def on_button(self):
+            print(self.entry.get())
+
+    app = SampleApp()
+    app.mainloop()
+
 
 
 
