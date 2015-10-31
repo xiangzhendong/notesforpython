@@ -12,6 +12,6 @@
    * [极简交互式日记系统](ji_jian_jiao_hu_shi_ri_ji_xi_tong.md)
 * 2W GUI
    * [tkinter](tkinter.md)
-   * [极简交互日记的桌面版本](ji_jian_jiao_hu_ri_ji_de_zhuo_mian_ban_ben.md)
    * Entry Widgets
+   * [极简交互日记的桌面版本](ji_jian_jiao_hu_ri_ji_de_zhuo_mian_ban_ben.md)
 
