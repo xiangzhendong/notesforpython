@@ -87,22 +87,44 @@ master代表父窗口（parent window），entry部件会布置在里面。像�
 
     mainloop( )
 
+下面的程序让我们以更加pythonic的方式创建许多输入框：
+
+    #!/usr/bin/python3
+
+    from tkinter import *
+    fields = 'Last Name', 'First Name', 'Job', 'Country'
+
+    def fetch(entries):
+       for entry in entries:
+          field = entry[0]
+          text  = entry[1].get()
+          print('%s: "%s"' % (field, text)) 
+
+    def makeform(root, fields):
+        entries = []
+        for field in fields:
+            row = Frame(root)
+            lab = Label(row, width=15, text=field, anchor='w')
+            ent = Entry(row)
+            row.pack(side=TOP, fill=X, padx=5, pady=5)
+            lab.pack(side=LEFT)
+            ent.pack(side=RIGHT, expand=YES, fill=X)
+            entries.append((field, ent))
+        return entries
+
+    if __name__ == '__main__':
+       root = Tk()
+       ents = makeform(root, fields)
+       root.bind('<Return>', (lambda event, e=ents: fetch(e)))   
+       b1 = Button(root, text='Show',
+          command=(lambda e=ents: fetch(e)))
+       b1.pack(side=LEFT, padx=5, pady=5)
+       b2 = Button(root, text='Quit', command=root.quit)
+       b2.pack(side=LEFT, padx=5, pady=5)
+       root.mainloop()
 
 
 
+参考资料：
 
-    import tkinter as tk
-
-    class SampleApp(tk.Tk):
-        def __init__(self):
-            tk.Tk.__init__(self)
-            self.entry = tk.Entry(self)
-            self.button = tk.Button(self, text="Get",    command=self.on_button)
-            self.button.pack()
-            self.entry.pack()
-
-        def on_button(self):
-            print(self.entry.get())
-
-    app = SampleApp()
-    app.mainloop()
+[Entry Widgets](http://www.python-course.eu/tkinter_entry_widgets.php)
