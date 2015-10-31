@@ -130,6 +130,13 @@ master代表父窗口（parent window），entry部件会布置在里面。像�
 
 # Text Widgets
 
+    Tkinter import *
+
+    root = Tk()
+    T = Text(root, height=2, width=30)
+    T.pack()
+    T.insert(END, "Just a text Widget\nin two lines\n")
+    mainloop()
 
 
 
