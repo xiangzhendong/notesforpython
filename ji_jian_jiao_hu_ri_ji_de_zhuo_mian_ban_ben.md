@@ -5,6 +5,7 @@
 
 ## 版本1
 
+先解决主要矛盾：输入文本并保存（输入多行文本、输入中文、输入框大小等暂时不处理）
 
     from tkinter import *
     import tkinter as tk
