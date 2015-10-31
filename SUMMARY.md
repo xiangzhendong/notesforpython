@@ -11,5 +11,5 @@
    * [mac环境下IDLE不支持中文输入问题](machuan_jing_xia_idle_bu_zhi_chi_zhong_wen_shu_ru_wen_ti.md)
    * [极简交互式日记系统](ji_jian_jiao_hu_shi_ri_ji_xi_tong.md)
 * 2W GUI
-   * tkinter
+   * [tkinter](tkinter.md)
 
