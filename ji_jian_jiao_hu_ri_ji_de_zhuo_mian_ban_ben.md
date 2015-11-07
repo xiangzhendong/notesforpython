@@ -30,21 +30,23 @@
 目标：输入多行文本
 
     from tkinter import *
-        import tkinter as tk
+    import tkinter as tk
         class myapp(tk.Tk):
             def __init__(self):
                 tk.Tk.__init__(self)
-                self.diarytext=tk.Text(self,height=6,width=30)
+                self.text=tk.Text(self)
                 self.button=tk.Button(self,text='save',command=self.on_button)
-                self.button.pack()
-                self.diarytext.pack()
+               self.button1=tk.Button(self,text=‘quit’,command=quit)
+               self.button.pack()
+               self.button1.pack
+               self.text.pack()
             def on_button(self):
                 mydiary=open('mydiary.txt','a')
-                mydiary.write(self.diarytext.get()+'\n')
+                mydiary.write(self.text.get(1.0,END)+'\n')
                 mydiary.close()
     
-        app=myapp()
-        app.mainloop()
+    app=myapp()
+    app.mainloop()
 
 
 
