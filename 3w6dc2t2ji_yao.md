@@ -45,6 +45,11 @@
 
 ```class myapp(tk.Tk)```
 
+在GUI中，每个Button、Label、输入框等，都是一个Widget。Frame则是可以容纳其他Widget的Widget
+
+### 第3步：
+
+
 
 
 ## shell、ipython、编辑器
