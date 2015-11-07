@@ -32,7 +32,7 @@
 
 
 ## shell、ipython、编辑器
-shell（终端）的作用是执行命令，command＋s可以保存shell，即把里面的所有内容原样保存。python的idle是python自己的shell。
+shell（终端）的作用是执行命令，command＋s可以保存shell，即把里面的所有内容原样保存。python的idle是python自己的shell。要在shell中使用之前写的代码，你要一行一行重新敲击或复制。
 
 ipython是增强版的python shell。它可以提高编写、测试、调试代码的速度。在终端中输入```ipython```可以进入ipython模式，输入```quit()``` 退出该模式。
 
