@@ -48,7 +48,7 @@
 在GUI中，每个Button、Label、输入框等，都是一个Widget。Frame则是可以容纳其他Widget的Widget
 
 ### 第3步：添加部件（widgets）到我的主窗口
-我们
+我们把这个动作封装到一个函数中。
 
 
 
