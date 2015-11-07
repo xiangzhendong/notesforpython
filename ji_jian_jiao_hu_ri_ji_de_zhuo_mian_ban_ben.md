@@ -31,19 +31,19 @@
 
     from tkinter import *
     import tkinter as tk
-        class myapp(tk.Tk):
-            def __init__(self):
-                tk.Tk.__init__(self)
-                self.text=tk.Text(self)
-                self.button=tk.Button(self,text='save',command=self.on_button)
-               self.button1=tk.Button(self,text=‘quit’,command=quit)
-               self.button.pack()
-               self.button1.pack
-               self.text.pack()
-            def on_button(self):
-                mydiary=open('mydiary.txt','a')
-                mydiary.write(self.text.get(1.0,END)+'\n')
-                mydiary.close()
+    class myapp(tk.Tk):
+        def __init__(self):
+            tk.Tk.__init__(self)
+            self.text=tk.Text(self)
+            self.button=tk.Button(self,text='save',command=self.on_button)
+            self.button1=tk.Button(self,text=‘quit’,command=quit)
+            self.button.pack()
+            self.button1.pack
+            self.text.pack()
+        def on_button(self):
+            mydiary=open('mydiary.txt','a')
+            mydiary.write(self.text.get(1.0,END)+'\n')
+            mydiary.close()
     
     app=myapp()
     app.mainloop()
