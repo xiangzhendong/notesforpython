@@ -38,7 +38,7 @@
             self.button=tk.Button(self,text='save',command=self.on_button)
             self.button1=tk.Button(self,text=‘quit’,command=quit)
             self.button.pack()
-            self.button1.pack
+            self.button1.pack()
             self.text.pack()
         def on_button(self):
             mydiary=open('mydiary.txt','a')
