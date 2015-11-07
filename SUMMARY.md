@@ -14,5 +14,5 @@
    * [tkinter](tkinter.md)
    * [输入文本](entry_widgets.md)
    * [极简交互日记的桌面版本](ji_jian_jiao_hu_ri_ji_de_zhuo_mian_ban_ben.md)
-   * 3w6dC2T2纪要
+   * [3w6dC2T2纪要](3w6dc2t2ji_yao.md)
 
