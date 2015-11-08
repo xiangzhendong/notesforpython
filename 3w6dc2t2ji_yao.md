@@ -151,15 +151,15 @@ __init__（self,[...]）是类别（class）定义中一个特别的方法（met
 Button的text参数可以设定按钮上显示的文字，command参数意味着点击按钮会触发什么程序。
 
 点击save按钮会触发一个自定义的on_button函数：
-    
-    def on_button(self):
-        mydiary=open('mydiary.txt','a')
-        mydiary.write(self.text.get(1.0,END)+'\n')
-        mydiary.close()
 
 点击qui按钮会触发quit函数：
 google:tkinter text quit
 [close a tkinter window？](http://stackoverflow.com/questions/110923/close-a-tkinter-window)
+
+    def on_button(self):
+        mydiary=open('mydiary.txt','a')
+        mydiary.write(self.text.get(1.0,END)+'\n')
+        mydiary.close()
 
 以追加的方式打开一个文件（没有的话会自动创建），通过get()获取Text文本框的内容写入文件中（结尾回车），关闭文件并保存
 
