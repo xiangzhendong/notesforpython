@@ -90,9 +90,12 @@ Button的text参数可以设定按钮上显示的文字，command参数意味着
 
 
 
-### 第4步：实例化myapp
+### 第4步：实例化myapp,进入改应用程序的主事件循环
 
-```myapp()```
+    app＝myapp()
+    app.mainloop()
+    
+    
 
 
 ## shell、ipython、编辑器
