@@ -77,6 +77,19 @@ __init__（self,[...]）是类别（class）定义中一个特别的方法（met
 
 Button的text参数可以设定按钮上显示的文字，command参数意味着点击按钮会触发什么程序。
 
+这里有一自定义的on_button函数：
+    
+    def on_button(self):
+        mydiary=open('mydiary.txt','a')
+        mydiary.write(self.text.get(1.0,END)+'\n')
+        mydiary.close()
+
+以追加的方式打开一个文件（没有的话会自动创建），通过get()获取Text文本框的内容写入文件中（结尾回车），关闭文件并保存
+
+
+### 第4步：实例化myapp
+
+
 
 ## shell、ipython、编辑器
 shell（终端）的作用是执行命令，command＋s可以保存shell，即把里面的所有内容原样保存。python的idle是python自己的shell。要在shell中使用之前写的代码，你要一行一行重新敲击或复制。这时候你就会感受到用编辑器保存脚本的好处。
