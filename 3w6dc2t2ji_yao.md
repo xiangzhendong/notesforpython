@@ -75,7 +75,7 @@ __init__（self,[...]）是类别（class）定义中一个特别的方法（met
     self.button1.pack()
     self.text.pack()
 
-
+Button的text参数可以设定按钮上显示的文字，command参数意味着点击按钮会触发什么程序。
 
 
 ## shell、ipython、编辑器
