@@ -70,9 +70,12 @@ sublime（谢辉）
 ### 关于教程
 笨方法学python
 
-[python简明教程](http://www.kuqin.com/abyteofpython_cn/)
+[简明python教程](http://www.kuqin.com/abyteofpython_cn/)
+[python简明教程](http://pdca.everydo.com/czug.org/python/abyteofpython/)
 
 深入浅出python
+
+
 
 
 
