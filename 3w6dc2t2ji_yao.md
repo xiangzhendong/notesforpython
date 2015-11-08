@@ -38,6 +38,13 @@
 
 也就是说，python程序由模块构成（每写一段代码都可以保存下来.py,构成一个模块），模块包含语句，语句包含表达式，表达式建立并处理对象。
 
+    >>> length=5      ＃赋值语句
+    >>> breadth=2     ＃赋值语句
+    >>> length*breadth  ＃表达式
+    10
+    >>> area=length*breadth   ＃赋值语句
+    >>> print(area)    ＃print语句，语句不一定产生一个值
+    10
 
 
 ### 关于shell、ipython、编辑器
