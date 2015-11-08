@@ -117,7 +117,7 @@ sublime（谢辉）
 
 ```class myapp(tk.Tk)```
 
-在GUI中，每个Button、Label、输入框等，都是一个Widget。Frame则是可以容纳其他Widget的Widget
+在GUI中，每个Button、Label、输入框等，都是一个Widget。Tk则是可以容纳其他Widget的Widget
 
 ### 第3步：添加部件（widgets）到我的主窗口
 我们把这些属性／动作封装到一个类的初始化操作中。
