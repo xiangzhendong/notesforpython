@@ -60,6 +60,24 @@ __init__（self,[...]）是类别（class）定义中一个特别的方法（met
 调用父类的__init__方法或者说构造函数。如果不这样，父类的构造函数就不会被执行，导致子类实例访问父类初始化方法中的初始变量时出现问题。这就好像你告诉别人“我爸是李刚”，你就可以使用李刚的资源了。
 
 
+
+    self.text=tk.Text(self)
+    self.text.pack()
+
+调用tkinter模块的Text方法来创建一个文本框部件。调用pack()将该部件加入到父容器当中，并可实现布局
+
+同理可创建Button部件，全部部件的完整代码如下：
+
+    self.text=tk.Text(self)
+    self.button=tk.Button(self,text='save',command=self.on_button)
+    self.button1=tk.Button(self,text=‘quit’,command=quit)
+    self.button.pack()
+    self.button1.pack()
+    self.text.pack()
+
+
+
+
 ## shell、ipython、编辑器
 shell（终端）的作用是执行命令，command＋s可以保存shell，即把里面的所有内容原样保存。python的idle是python自己的shell。要在shell中使用之前写的代码，你要一行一行重新敲击或复制。这时候你就会感受到用编辑器保存脚本的好处。
 
