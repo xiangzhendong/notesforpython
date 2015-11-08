@@ -49,6 +49,7 @@ ipython是增强版的python shell。它可以提高编写、测试、调试代�
 
 关于命令行工具的推荐：
 iterm（弓箭）
+oh my zsh（弓箭）
 
 关于编辑器的推荐：
 sublime（谢辉）
