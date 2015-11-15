@@ -123,6 +123,8 @@ form的变量name的值可以通过request.query.get('name')和request.forms.get
 
 最后返回日记内容。
 
+第4步：运行
+
 
 
     
