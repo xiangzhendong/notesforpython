@@ -8,6 +8,8 @@ ipython外加一个文本编辑器（vim）
 
 python3.5
 
+bottle
+
 
 ## 在iterm(命令行工具)创建文件并编辑
  ```pwd``` ＃查看当前文件夹位置
