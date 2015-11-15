@@ -111,8 +111,9 @@ Then type -- and hit enter.
     
 第1步：调用bottle模块
 
-第2步：利用form接收用户输入
-当在浏览器输入url时，触发writediary函数完成请求。write函数返回了一个form。bottle可以通过request对象发送任何form数据。作为get请求发送的任何数据都可以通过request.query得到，通过post发送的数据则可以通过request.forms得到。这里我们使用了post方法。
+第2步：利用request对象的forms属性（request类下的函数）接收用户输入
+
+当在浏览器输入url时，触发writediary函数完成请求。writediary函数返回form。bottle可以通过request对象(类对象，参见[the request object](http://bottlepy.org/docs/dev/api.html#the-request-object))发送任何form数据。作为get请求发送的任何数据都可以通过request.query得到，通过post发送的数据则可以通过request.forms得到。这里我们使用了post方法。
 
 输入内容赋值给变量diary，变量类型是text。
 
