@@ -55,9 +55,7 @@ Paste (Ctrl-V) and hit enter.
 
 Then type -- and hit enter.
 
-
-
-http://stackoverflow.com/questions/10886946/how-does-ipythons-magic-paste-work
+[参考资料](http://stackoverflow.com/questions/10886946/how-does-ipythons-magic-paste-work)
 
 
 
