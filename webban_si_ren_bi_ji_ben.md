@@ -109,15 +109,18 @@ Then type -- and hit enter.
     run(host='localhost', port=8080, debug=True) 
     
     
-第1步：调用bottle模块
 
-第2步：利用request对象的forms属性（request类下的函数）接收用户输入
+### 第1步：调用bottle模块
+
+
+### 第2步：利用request对象的forms属性（request类下的函数）接收用户输入
 
 当在浏览器输入url时，触发writediary函数完成请求。writediary函数返回form。bottle可以通过request对象(类对象，参见[the request object](http://bottlepy.org/docs/dev/api.html#the-request-object))发送任何form数据（数据结构以字典的形式存储，参见前面了解的forms源代码）。get方法发送的任何数据都可以通过request.query得到，post方法发送的数据则可以通过request.forms得到。这里我们使用了post方法。
 
 输入内容赋值给变量diary，变量类型是text。
 
-第3步：获取用户输入并保存，返回日记内容
+
+### 第3步：获取用户输入并保存，返回日记内容
 form的变量name的值可以通过request.query.get('name')和request.forms.get('name')得到。
 
 以追加的方式打开文件（没有文件会自动创建），写入获取的request对象发送的form数据，关闭并保存。
