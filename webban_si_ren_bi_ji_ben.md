@@ -5,13 +5,14 @@
 ipython外加一个文本编辑器（vim）
 
 
-## 命令行工具：iterm
-pwd ＃查看当前文件夹位置
-cd /Users/xiangzhendong/OMOOC2py/_src/om2py4w ＃进入指定文件夹；技巧：将文件夹拖动到命令行便能显示文件夹位置
+## 在iterm(命令行工具)创建文件并编辑
+ ```pwd``` ＃查看当前文件夹位置
+ 
+```cd /Users/xiangzhendong/OMOOC2py/_src/om2py4w``` ＃进入指定文件夹；技巧：将文件夹拖动到命令行便能显示文件夹位置
 
-echo > login.py #创建文件
+```echo > login.py``` #创建文件
 
-vim login.py    ＃使用vim编辑啊文件
+```vim login.py```    ＃使用vim编辑文件
 
 
 按ESC键 跳到命令模式，然后：
@@ -25,6 +26,10 @@ q:  不保存文件，退出vi
 :q! 不保存文件，强制退出vi
 :e! 放弃所有修改，从上次保存文件开始再编辑
 按i键键入插入模式 下方显示—insert--
+
+
+## 如何在ipython粘贴代码？
+
 If you want to paste code into IPython, try the %paste and %cpaste magic functions.
 
 You can't copy to IPython directly. This are the steps:
