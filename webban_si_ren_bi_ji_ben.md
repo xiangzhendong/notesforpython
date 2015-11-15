@@ -41,6 +41,8 @@ Enter %paste into IPython
 Press enter
 Profit!
 
+另一种说法：
+
 A clarification on the steps:
 
 First, copy target lines into your clipboard.
