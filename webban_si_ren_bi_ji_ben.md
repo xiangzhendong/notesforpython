@@ -121,7 +121,7 @@ Then type -- and hit enter.
 
 
 ### 第3步：获取用户输入并保存，返回日记内容
-form的变量name的值可以通过request.query.get('name')和request.forms.get('name')得到。
+forms属性的变量name的值可以通过request.query.get('name')和request.forms.get('name')得到。
 
 以追加的方式打开文件（没有文件会自动创建），写入获取的request对象发送的form数据，关闭并保存。
 
