@@ -2,9 +2,10 @@
 
 
 # 开发环境
-ipython外加一个文本编辑器（vim）；命令行工具：iterm
+ipython外加一个文本编辑器（vim）
 
 
+## 命令行工具：iterm
 pwd ＃查看当前文件夹位置
 cd /Users/xiangzhendong/OMOOC2py/_src/om2py4w ＃进入指定文件夹；技巧：将文件夹拖动到命令行便能显示文件夹位置
 
