@@ -9,9 +9,9 @@ ipython外加一个文本编辑器（vim）
 pwd ＃查看当前文件夹位置
 cd /Users/xiangzhendong/OMOOC2py/_src/om2py4w ＃进入指定文件夹；技巧：将文件夹拖动到命令行便能显示文件夹位置
 
-echo > login.py
+echo > login.py #创建文件
 
-vim login.py
+vim login.py    ＃使用vim编辑啊文件
 
 
 按ESC键 跳到命令模式，然后：
