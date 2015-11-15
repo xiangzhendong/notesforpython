@@ -111,7 +111,7 @@ Then type -- and hit enter.
     
 第1步：调用bottle模块
 
-第2步：使用form接收用户输入
+第2步：利用form接收用户输入
 
 bottle可以通过request发送任何form数据。作为get请求发送的任何数据都可以通过request.query得到，通过post发送的数据则可以通过request.forms得到。form的变量name的值可以通过request.query.get('name')和request.forms.get('name')得到。
 
