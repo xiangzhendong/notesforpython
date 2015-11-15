@@ -28,7 +28,9 @@ q:  不保存文件，退出vi
 按i键键入插入模式 下方显示—insert--
 
 
-## 如何在ipython粘贴代码？
+## 在ipython粘贴代码
+
+在iterm中输入```ipython```进入ipython模式
 
 If you want to paste code into IPython, try the %paste and %cpaste magic functions.
 
