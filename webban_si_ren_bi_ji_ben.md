@@ -13,13 +13,20 @@ python3.5
 ```pip install bottle```
 
 XiangZhendongdeMacBook-Air:~ xiangzhendong$ pip install bottle
+
 You are using pip version 6.1.1, however version 7.1.2 is available.
+
 You should consider upgrading via the 'pip install --upgrade pip' command.
+
 Collecting bottle
   Downloading bottle-0.12.9.tar.gz (69kB)
+    
     100% |████████████████████████████████| 69kB 1.1MB/s
+    
 Installing collected packages: bottle
+  
   Running setup.py install for bottle
+
 Successfully installed bottle-0.12.9    
 
 
