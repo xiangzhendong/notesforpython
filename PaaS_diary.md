@@ -60,7 +60,7 @@ http://www.sinacloud.com/doc/sae/python/index.html
     git push sae master:1  ＃push到远程仓库
 
 
-##第2步：编辑应用代码
+##第3步：编辑应用代码
 首先编写接口文件index.wsgi：SAE上的Python应用的入口为 index.wsgi:application
 
     import sae
