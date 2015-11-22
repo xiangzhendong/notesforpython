@@ -103,6 +103,7 @@ http://www.sinacloud.com/doc/sae/python/index.html
         sql_insert="""insert into MYSQL_diary(datetime, content) VALUES (CURRENT_TIMESTAMP,'"""+request.forms.get('diary')+"""')"""
         connection.query(sql_insert)
 
+这里，我们用到了SQL数据库接收用户输入。
     
 ## 第3步：
 
