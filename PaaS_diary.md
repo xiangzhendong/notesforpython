@@ -106,5 +106,13 @@ http://www.sinacloud.com/doc/sae/python/index.html
 这里主要有两大块的内容：（1）我们使用bottle框架来开发我们的web应用；（2）我们用到了SQL数据库接收并管理用户数据。
 
 
+### 导入bottle、MySQLdb模块和sae的相关常量信息
+    from bottle import Bottle, get, post, request
+    
+    import MySQLdb
+    
+    import sae.const
+
+
 
 
