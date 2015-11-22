@@ -164,6 +164,6 @@ passwd:数据库登录密码
 sae支持在图形界面创建数据表：
 ![数据表字段设置](13E283A1-15D4-44D1-8A1B-4D5BD53A4DDF.png)
 
-这里，我们创建了三个字段：id（整型、主键、自动增长）、datetime（datetime型）、content（text型）。
+这里，我们创建了三个字段：id（整型、主键、自动增长）、datetime（datetime型）、content（text型）。其中id支持自动增长，无需编写插入代码。
         
         
