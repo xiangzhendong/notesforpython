@@ -61,7 +61,50 @@ http://www.sinacloud.com/doc/sae/python/index.html
 
 
 ##第2步：编辑应用代码
-首先创建应用的接口文件index.wsgi
+首先编写接口文件index.wsgi：SAE上的Python应用的入口为 index.wsgi:application
+
+    import sae
+
+    import jedsdiary  #将应用代码文件导入接口文件中
+
+    application = sae.create_wsgi_app(jedsdiary.app) 
+    
+
+编写应用代码文件jedsdiary.py
+
+    # -*- coding:utf -8 -*-
+    from bottle import Bottle, get, post, request
+    
+    import MySQLdb
+    
+    import sae.const
+    
+    MYSQL_DB=sae.const.MYSQL_DB
+    MYSQL_USER=sae.const.MYSQL_USER
+    MYSQL_PASS=sae.const.MYSQL_PASS
+    MYSQL_HOST_M=sae.const.MYSQL_HOST
+    MYSQL_HOST_S=sae.const.MYSQL_HOST_S
+    MYSQL_PORT=int(sae.const.MYSQL_PORT)
+    
+    app=Bottle()
+    
+    @app.get('/')
+    def writediary():
+        return '''
+            <form action='/' method='post' >
+                diary:<input name='diary' type='text'/> 
+            </form>
+         '''
+    
+    @app.post('/')
+    def insert():
+        connection=MySQLdb.connection(host=MYSQL_HOST_M, port=MYSQL_PORT, user=MYSQL_USER, passwd=MYSQL_PASS)
+        connection.select_db(MYSQL_DB)
+        sql_insert="""insert into MYSQL_diary(datetime, content) VALUES (CURRENT_TIMESTAMP,'"""+request.forms.get('diary')+"""')"""
+        connection.query(sql_insert)
+
+    
+## 第3步：
 
 
 
