@@ -152,4 +152,13 @@ passwd:数据库登录密码
 
 这里的代码基本复用web版私人笔记本。不再赘述。
 
-### 
+### 获取form数据并录入SQL数据库
+
+    @app.post('/')
+    def insert():
+        connection=MySQLdb.connection(host=MYSQL_HOST_M, port=MYSQL_PORT, user=MYSQL_USER, passwd=MYSQL_PASS) #利用获取的sae相关常量信息和我的SQL数据库建立连接
+        connection.select_db(MYSQL_DB)
+        sql_insert="""insert into MYSQL_diary(datetime, content) VALUES (CURRENT_TIMESTAMP,'"""+request.forms.get('diary')+"""')"""
+        connection.query(sql_insert)
+        
+        
