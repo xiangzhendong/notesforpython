@@ -125,6 +125,19 @@ passwd:数据库登录密码
 
 当我们在sae创建MySQL后，sae会在服务首页提供我们数据库的上述信息。
 
+我们将使用sae.const来获取sae的相关常量信息，即数据库的连接信息。这相当于给到我们访问数据库的地址和钥匙。后面我们才能管理数据库，找到地址打开家门。
 
+    MYSQL_DB=sae.const.MYSQL_DB
+    MYSQL_USER=sae.const.MYSQL_USER
+    MYSQL_PASS=sae.const.MYSQL_PASS
+    MYSQL_HOST_M=sae.const.MYSQL_HOST
+    MYSQL_HOST_S=sae.const.MYSQL_HOST_S
+    MYSQL_PORT=int(sae.const.MYSQL_PORT)
+
+
+
+### 创建Bottle类对象实例
+    app=Bottle()
+实例化后bottle的装饰器就要写成app.route('/')的形式，代表是这个对象的路径。
 
 
