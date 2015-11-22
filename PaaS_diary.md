@@ -165,5 +165,16 @@ sae支持在图形界面创建数据表：
 ![数据表字段设置](13E283A1-15D4-44D1-8A1B-4D5BD53A4DDF.png)
 
 这里，我们创建了三个字段：id（整型、主键、自动增长）、datetime（datetime型）、content（text型）。其中id支持自动增长，无需编写插入代码。
-        
+
+代码编辑完成后记得push修改后的代码到远程仓库，操作参加第2步。接口文件push一次后不必再动。
+
+参考资料：
+http://lazy.changes.com.cn/html/404.html
+
+
+## 第4步：使用应用
+在浏览器输入http://jedsdiary.sinaapp.com
+输入内容后即可在sae后台数据库查看录入的内容：
+![数据表内容](屏幕快照 2015-11-23 上午12.10.45.png)
+
         
