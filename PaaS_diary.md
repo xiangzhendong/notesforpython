@@ -141,4 +141,15 @@ passwd:数据库登录密码
 实例化后bottle的装饰器就要写成app.route('/')的形式，代表是这个对象的路径。
 
 
-### 创建表单
+### 利用form接收用户输入
+    @app.get('/')
+    def writediary():
+        return '''
+            <form action='/' method='post' >
+                diary:<input name='diary' type='text'/> 
+            </form>
+         '''
+
+这里的代码基本复用web版私人笔记本。
+
+### 
