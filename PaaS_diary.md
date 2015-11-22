@@ -158,7 +158,7 @@ passwd:数据库登录密码
     def insert():
         connection=MySQLdb.connection(host=MYSQL_HOST_M, port=MYSQL_PORT, user=MYSQL_USER, passwd=MYSQL_PASS) #利用获取的sae相关常量信息和我的SQL数据库建立连接，返回连接对象
         connection.select_db(MYSQL_DB) #选择相应的数据库
-        sql_insert="""insert into MYSQL_diary(datetime, content) VALUES (CURRENT_TIMESTAMP,'"""+request.forms.get('diary')+"""')""" ＃SQL语法，将当前的日期和时间以及form数据插入到数据库的两个字段下，前提是已在sae上创建数据表
+        sql_insert="""insert into MYSQL_diary(datetime, content) VALUES (CURRENT_TIMESTAMP,'"""+request.forms.get('diary')+"""')""" ＃SQL语法，将当前的日期和时间以及form数据插入到数据库的datetime和content的两个字段下，前提是已在sae上创建数据表
         connection.query(sql_insert)
         
 sae支持在图形界面创建数据表：
