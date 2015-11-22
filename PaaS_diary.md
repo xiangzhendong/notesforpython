@@ -27,9 +27,12 @@ https://www.techopedia.com/2/28934/technology-trends/software-as-a-service-saas/
 ## 如何使用PaaS?(how)
 换句话说，全球能免费运行python应用网络的有哪些PaaS?
 
-SAE就是其中的一种。即Sina App Engine 是新浪内部云计算平台
+SAE就是其中的一种。它的全称是Sina App Engine， 是新浪内部云计算平台。
 http://www.sinacloud.com/doc/sae/python/index.html
 
+
+
+# 通过sae创建公网版私人笔记
 
 
 
