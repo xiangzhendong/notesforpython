@@ -175,6 +175,7 @@ http://lazy.changes.com.cn/html/404.html
 ## 第4步：使用应用
 在浏览器输入http://jedsdiary.sinaapp.com
 输入内容后即可在sae后台数据库查看录入的内容：
+
 ![数据表内容](屏幕快照 2015-11-23 上午12.10.45.png)
 
         
