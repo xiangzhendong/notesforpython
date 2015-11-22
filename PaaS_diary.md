@@ -113,7 +113,16 @@ http://www.sinacloud.com/doc/sae/python/index.html
     
     import sae.const
 
-其中，
+其中，MySQLdb是Python连接Mysql数据库的接口，它提供了connection方法来和数据库建立连接,接收多个参数,返回连接对象，例如：
+* 
+port:MySQL服务使用的TCP端口.默认是3306
+* 
+host:数据库主机名.默认是用本地主机
+* 
+user:数据库登陆名.默认是当前用户
+* 
+passwd:数据库登陆的密码.默认为空
+
 
 
 
