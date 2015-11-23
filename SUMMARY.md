@@ -21,4 +21,5 @@
 * 5W PaaS
    * [公网版私人笔记](PaaS_diary.md)
 * 深圳C2T2纪要
+   * 深圳C2T2 5W纪要
 
