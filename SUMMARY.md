@@ -20,4 +20,5 @@
    * [web版私人笔记本](webban_si_ren_bi_ji_ben.md)
 * 5W PaaS
    * [公网版私人笔记](PaaS_diary.md)
+* 深圳C2T2纪要
 
