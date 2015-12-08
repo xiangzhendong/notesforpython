@@ -23,5 +23,5 @@
 * 深圳C2T2纪要
    * [深圳C2T2 5W纪要](shen_zhen_c2t2_5w_ji_yao.md)
 * 结课：书友圈项目
-   * 项目简介
+   * [项目简介](xiang_mu_jian_jie.md)
 
