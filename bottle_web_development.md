@@ -11,7 +11,10 @@
     # -*- coding:utf-8 -*-
     #encoding = utf-8
     from bottle import route, run,template
-
+    
+    """
+    双大括号内的内容是待替换的内容。courses变量前加！是为了解析courses列表元素中html的内容。
+    """
     html="""
     hello {{name}}!
     I'm  {{age}}.
