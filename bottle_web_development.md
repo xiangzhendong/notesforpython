@@ -13,7 +13,7 @@
     from bottle import route, run,template
     
     """
-    双大括号内的内容是待替换的内容。courses变量前加！是为了解析courses列表元素中html的内容。
+    双大括号内的内容是待替换的内容。courses变量前加！是为了解析courses列表元素中html的内容。使用％在html内容中输入python代码。
     """
     html="""
     hello {{name}}!
