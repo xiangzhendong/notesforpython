@@ -18,7 +18,7 @@
    * [3w6dC2T2纪要](3w6dc2t2ji_yao.md)
 * 4W Web
    * [web版私人笔记本](webban_si_ren_bi_ji_ben.md)
-   * bottle web development
+   * [bottle web development](bottle_web_development.md)
 * 5W PaaS
    * [公网版私人笔记](PaaS_diary.md)
 * 深圳C2T2纪要
